@@ -1,4 +1,4 @@
-//create navBar
+// create navBar
 const navBar = () => {
   const main = document.querySelector('body');
   const createNavBar = document.createElement('div');
@@ -14,8 +14,7 @@ const navBar = () => {
       </ul>
     </nav>  
       `;
-    return main.insertAdjacentElement('afterbegin', createNavBar);
-
-}
+  return main.insertAdjacentElement('afterbegin', createNavBar);
+};
 
 export default navBar;

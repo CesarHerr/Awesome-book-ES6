@@ -1,4 +1,4 @@
-//date
+// date
 
 import { DateTime } from './luxon.js';
 
@@ -12,6 +12,6 @@ const insertDate = () => {
   createDate.innerHTML = dateFormat;
 
   return main.appendChild(createDate);
-}
+};
 
 export default insertDate;

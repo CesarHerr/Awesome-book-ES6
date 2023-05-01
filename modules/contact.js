@@ -14,9 +14,9 @@ const insertContact = () => {
       </ul>
     `;
   return main.appendChild(createContact);
-}
+};
 
-//add Footer info
+// add Footer info
 const insertFooter = () => {
   const main = document.querySelector('body');
   const createFooter = document.createElement('footer');
@@ -24,6 +24,6 @@ const insertFooter = () => {
     <h4>Copyright  ...</h4>  
     `;
   main.appendChild(createFooter);
-}
+};
 
 export { insertContact, insertFooter };
