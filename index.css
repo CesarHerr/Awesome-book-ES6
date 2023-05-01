@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+table {
+  margin: 1.5em 0;
+  width: 50vw;
+  min-width: 380px;
+  border: solid 2px gray;
+  border-radius: 0.4rem;
+  padding: 0.3em;
+}
+
+table button {
+  position: relative;
+  width: 100%;
+  display: inline;
+  padding: 10px 30px;
+  border: solid 1.5px black;
+  font-size: 0.8rem;
+  border-radius: 0.2rem;
+  box-shadow:
+    11.6px 8.2px 7.7px -2px rgba(0, 0, 0, 0.33),
+    17px 12px 25px -2px rgba(0, 0, 0, 0.66);
+}
+
+td:nth-child(2) {
+  width: 20%;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+#add-book-btn {
+  border: solid 1.5px black;
+  font-size: 1.3rem;
+  border-radius: 0.2rem;
+  box-shadow:
+    11.6px 8.2px 7.7px -2px rgba(0, 0, 0, 0.33),
+    17px 12px 25px -2px rgba(0, 0, 0, 0.66);
+  width: 30%;
+  min-width: 80px;
+  padding: 7px;
+  outline: 1px solid;
+  outline-color: rgba(49, 138, 172, 0.4);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#add-book-btn:hover {
+  box-shadow: inset 0 0 20px rgba(49, 138, 172, 0.5), 0 0 20px rgba(49, 138, 172, 0.4);
+  outline-color: rgba(11, 110, 149, 0);
+  outline-offset: 80px;
+  text-shadow: 1px 1px 6px #fff;
+}
+
+h2 {
+  text-align: center;
+  margin: 1em 0;
+  font-size: 2.5rem;
+}
+
+form {
+  line-height: 0.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 35vw;
+  min-width: 380px;
+}
+
+input {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+/* nav-bar */
+
+.nav-bar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 40vw;
+}
+
+ul li,
+ul button {
+  width: 100%;
+}
+
+ul li button {
+  height: 2em;
+  background: none;
+  border-bottom: none;
+  border-top: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(84, 83, 83);
+  transition: all 0.5s ease;
+  color: #fff;
+}
+
+ul button:first-child {
+  border-left: none;
+}
+
+.nav-bar {
+  margin: 0.1em 5em;
+  border: solid 2px;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+}
+
+h3 {
+  display: inline;
+  margin-left: 10px;
+}
+
+.books-form,
+.contact {
+  display: none;
+}
+
+/* contact information */
+
+.contact p {
+  margin: 2em 0;
+  font-size: 1.5rem;
+}
+
+.contact ul {
+  display: grid;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  width: 80%;
+}
+
+.date {
+  position: absolute;
+  display: inline;   
+  right: 10px;
+  top: 40px;
+}
+
+footer {
+  width: 98%;
+  border: solid;
+  position: absolute;
+  bottom: 15px;
+}
+
+h4 {
+  margin: 0.4em;
+}
