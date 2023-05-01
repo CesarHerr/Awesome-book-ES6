@@ -25,11 +25,19 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome books <a name="about-project"></a>
+# 📖 Awesome books ES6<a name="about-project"></a>
 
 **Awesome books** is a project to build online an website for adding or removing books from a list of one's favourite books.
 
 ## 🛠 Built With <a name="built-with"></a>
+
+```
+1.- HTML.
+
+2.- javaScript.
+
+3.- CSS.
+```
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -59,7 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live demo link](https://mutugi-c.github.io/Awesome-Books/)
+- [Live demo link](https://cesarherr.github.io/Awesome-book-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,11 +75,17 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need an IDE such as VS code, sublime, atom e.t.c:
+In order to run this project you need:
+```
+- Code Editor.
+- Git and Github account.
+- Web browser.
+```
 
 ### Setup
 
@@ -81,7 +95,7 @@ Example commands:
 
 ```sh
  $ cd my-folder
- $ git clone git@github.com:mutugi-c/awesome-books.git
+ $ git clone https://github.com/CesarHerr/Awesome-book-ES6.git
 ```
 
 ### Install
@@ -131,18 +145,17 @@ Example: To build for production with parcel, use the folowing commands:
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Cesar Herrera**
+
+- GitHub: [@mCesarHerr](https://github.com/CesarHerr)
+- Twitter: [@CesarHerr](https://twitter.com/cesarherr2)
+- LinkedIn: [Cesar Herrera](https://www.linkedin.com/in/cesarherr/)
+
 👤 **Chris Mutugi**
 
 - GitHub: [@mutugi-c](https://github.com/mutugi-c)
 - Twitter: [@chris__mutugi](https://twitter.com/chris__mutugi)
 - LinkedIn: [chris-mutugi](https://www.linkedin.com/in/chris-mutugi-46594b123/)
-
-👤 **Cesar Herrera**
-
-- GitHub: [@mCesarHerr](https://github.com/CesarHerr)
-- Twitter: [@CesarHerr](https://twitter.com/cesar_herrera)
-- LinkedIn: [Cesar Herrera](https://www.linkedin.com/in/cesar_herrera-56493rg75/)
-
 
 <!-- FUTURE FEATURES -->
 
