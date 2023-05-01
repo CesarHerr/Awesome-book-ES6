@@ -2,11 +2,13 @@ import Library from './modules/classes.js';
 import navBar from './modules/navbar.js';
 import { insertContact, insertFooter } from './modules/contact.js';
 import addEvent from './modules/buttons.js';
+import insertDate from './modules/date.js';
 
 navBar();
 insertContact();
 insertFooter();
 addEvent();
+insertDate();
 
 const libraryOfBooks = new Library();
 
